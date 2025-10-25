@@ -4,7 +4,7 @@ const Products = ({elm:{title , description , thumbnail, price ,category ,rating
   return (
       <div className="col-md-6 text-center">
         
-        <div className="row g-0 border rounded mb-4 shadow-sm h-md-250 position-relative d-flex align-items-center" style={{height:"30vh"}}>
+        <div className="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative d-flex align-items-center" style={{maxHeight:"90vh"}}>
           
           <div className="col-8 p-4 d-flex flex-column position-static">
             
@@ -18,7 +18,7 @@ const Products = ({elm:{title , description , thumbnail, price ,category ,rating
              {description }
             </p>
           </div>
-          <div className="col-4 d-none d-lg-block d-flex align-items-center">
+          <div className="col-4  d-lg-block d-flex align-items-center">
             <img src={thumbnail} alt="" height={"200px"}/>
           </div>
         </div>
