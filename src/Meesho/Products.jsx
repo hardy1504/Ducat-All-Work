@@ -4,7 +4,7 @@ const Products = ({elm:{title , description , thumbnail, price ,category ,rating
   return (
       <div className="col-md-6 text-center">
         
-        <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative d-flex align-items-center" style={{height:"30vh"}}>
+        <div className="row g-0 border rounded mb-4 shadow-sm h-md-250 position-relative d-flex align-items-center" style={{height:"30vh"}}>
           
           <div className="col-8 p-4 d-flex flex-column position-static">
             
@@ -25,5 +25,5 @@ const Products = ({elm:{title , description , thumbnail, price ,category ,rating
       </div>
   );
 };
-
+// overflow-hidden flex-md-row 
 export default Products;
