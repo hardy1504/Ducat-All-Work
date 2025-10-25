@@ -12,7 +12,7 @@ const Products = ({elm:{title , description , thumbnail, price ,category ,rating
               {title}
             </strong>
             <h3 className="mb-0">{category}</h3>
-            <h3 className="mb-0">{price}</h3>
+            <h3 className="mb-0">{price}$</h3>
             <div className="mb-1 text-body-secondary">{rating}</div>
             <p className="card-text mb-auto">
              {description }

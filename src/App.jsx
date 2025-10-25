@@ -50,3 +50,18 @@ const App = () => {
 }
 
 export default App
+
+//Reminder App
+
+// import React from 'react'
+// import ReminderApp from './Reminder/ReminderApp'
+
+// const App = () => {
+//   return (
+//     <>
+//     <ReminderApp/>
+//     </>
+//   )
+// }
+
+// export default App
